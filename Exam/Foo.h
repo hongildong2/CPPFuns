@@ -1,16 +1,23 @@
+
 #pragma once
 #include "Subone.h"
 
-class Foo
+namespace POCU3200Midterm
 {
-public:
-	Foo(int x, int y);
-	virtual ~Foo();
-	virtual void Say() const;
+    class Foo
+    {
+    public:
+        Foo(int x, int y);
+        virtual ~Foo();
+        virtual void Say() const;
 
-protected:
-	Subone mSubobjects[5];
-	int* mX;
-	int* mY;
-};
+    protected:
+        // TEST : what happens below code? Bar is derived class from Foo
+        // Bar mCircularSubobject; Compiler Error : unknown override specifier
 
+        Subone mSubobject; // 32byte
+        int* mpX;
+        int* mpY;
+        int* mpZ;
+    };
+}

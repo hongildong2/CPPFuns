@@ -184,13 +184,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="Baz.cpp" />
     <ClCompile Include="Exam.cpp" />
     <ClCompile Include="Foo.cpp" />
+    <ClCompile Include="IBar.cpp" />
     <ClCompile Include="Subone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bar.h" />
+    <ClInclude Include="Baz.h" />
     <ClInclude Include="Foo.h" />
+    <ClInclude Include="IBar.h" />
     <ClInclude Include="Subone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

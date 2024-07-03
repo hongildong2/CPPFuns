@@ -188,9 +188,11 @@
     <ClCompile Include="Exam.cpp" />
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="IBar.cpp" />
+    <ClCompile Include="solve11052.cpp" />
     <ClCompile Include="Subone.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AlgoHeader.h" />
     <ClInclude Include="Bar.h" />
     <ClInclude Include="Baz.h" />
     <ClInclude Include="Foo.h" />

@@ -7,6 +7,7 @@ namespace POCU3200Midterm
     {
     public:
         Bar();
+        Bar(const Bar& other) = default;
 
         // will destructor of Foo called? parent destructor is virtual but derived one is not.
         // = Yes. base class Foo is defined as polymorphic, any derived class from it is also polymorphic class. Compiler handles that behavior automaticallly

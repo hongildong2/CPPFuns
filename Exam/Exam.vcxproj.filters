@@ -16,11 +16,11 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{8b4257ee-cb04-4f47-9f86-f3e09d925e5a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exam.cpp">
-      <Filter>COMP3200Midterm\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Foo.cpp">
       <Filter>COMP3200Midterm\Source Files</Filter>
     </ClCompile>
@@ -35,6 +35,10 @@
     </ClCompile>
     <ClCompile Include="IBar.cpp">
       <Filter>COMP3200Midterm\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exam.cpp" />
+    <ClCompile Include="solve11052.cpp">
+      <Filter>Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +56,9 @@
     </ClInclude>
     <ClInclude Include="IBar.h">
       <Filter>COMP3200Midterm\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgoHeader.h">
+      <Filter>Algorithm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

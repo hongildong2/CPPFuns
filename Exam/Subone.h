@@ -9,6 +9,8 @@ namespace POCU3200Midterm
         ~Subone();
         void Submethod();
 
+        Subone& operator=(const Subone& other);
+
     private:
         int* mpSuboneX;
         int* mpSuboneY;

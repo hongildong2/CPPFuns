@@ -12,13 +12,18 @@ namespace POCU3200Midterm
     public:
         Foo(int x, int y);
         Foo(const Foo& other) = delete;
-        Foo(const Foo&& other) noexcept;
+        Foo(Foo&& other) noexcept;
         Foo(const Bar& other);
-        // Foo(const Bar&& other);
+        // Foo(const Bar&& other); partial resource handover?
         virtual ~Foo();
 
         virtual void Say() const;
 
+		void CheckSubobjectValidity();
+		Subone&& HandoverMyResource(); // can be other object rather than Bar itself
+		void TrashReceiveResource(const Subone&& resource);
+		void ReceiveResource(Subone&& resource);
+		void ReadRRef(const Subone&& sub) const;
     
 
     protected:

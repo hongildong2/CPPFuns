@@ -12,18 +12,50 @@ int main()
 	{
 		using namespace Algorithm;
 
-		solve11052();
+		// solve11052();
 	}
 
 
+
 	// POCUCOMP3200Midterm code snippets
-	/*
+	
 	{
-
-
 		using namespace POCU3200Midterm;
 
-		Baz diastervirtual(1);
+		
+		Bar* disaster = nullptr;
+		// rvalue ref extending lifetime
+		{
+			Bar&& barRREf = Bar::BarDisasterFactory();
+			disaster = &barRREf;
+
+			// another function call
+			Baz baz(1);
+
+			
+			//where do i access?
+			barRREf.Say();
+			// why barRREf does not destruct?
+		}
+
+		//what happen? :: Disaster!!
+		// disaster->BarVirtualMethod();
+
+		// return by rValue reference, resource handover
+		{
+			Bar bar;
+			Bar bar2;
+
+			
+			Subone handedOverSubone(bar.HandoverMyResource()); // this object is initialized by move constructor, has same resource as bar initially acquisited
+
+			// bar's mSubobject should still be valid
+
+			bar2.TrashReceiveResource(std::move(handedOverSubone));
+			bar2.ReceiveResource(bar.HandoverMyResource());
+
+			bar.CheckSubobjectValidity();
+		}
 
 
 		{
@@ -126,6 +158,6 @@ int main()
 
 		Bar obj4;
 	}
-	*/
+	
 
 }

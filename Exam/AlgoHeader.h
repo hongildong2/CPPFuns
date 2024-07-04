@@ -2,6 +2,5 @@
 
 namespace Algorithm
 {
-
-	void solve11052();
+	void solve17140();
 }

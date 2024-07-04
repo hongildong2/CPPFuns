@@ -12,13 +12,14 @@ int main()
 	{
 		using namespace Algorithm;
 
-		// solve11052();
+		solve17140();
 	}
 
 
 
 	// POCUCOMP3200Midterm code snippets
 	
+	/*
 	{
 		using namespace POCU3200Midterm;
 
@@ -158,6 +159,6 @@ int main()
 
 		Bar obj4;
 	}
-	
+	*/
 
 }

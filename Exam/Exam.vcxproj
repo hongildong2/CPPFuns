@@ -188,7 +188,8 @@
     <ClCompile Include="Exam.cpp" />
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="IBar.cpp" />
-    <ClCompile Include="solve11052.cpp" />
+    <ClCompile Include="solve1406.cpp" />
+    <ClCompile Include="solve17140.cpp" />
     <ClCompile Include="Subone.cpp" />
   </ItemGroup>
   <ItemGroup>

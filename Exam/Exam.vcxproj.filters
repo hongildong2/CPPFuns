@@ -37,7 +37,10 @@
       <Filter>COMP3200Midterm\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Exam.cpp" />
-    <ClCompile Include="solve11052.cpp">
+    <ClCompile Include="solve1406.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="solve17140.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
   </ItemGroup>

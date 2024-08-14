@@ -188,9 +188,13 @@
     <ClCompile Include="Exam.cpp" />
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="IBar.cpp" />
+    <ClCompile Include="solve1012.cpp" />
+    <ClCompile Include="solve10942.cpp" />
     <ClCompile Include="solve1406.cpp" />
     <ClCompile Include="solve17140.cpp" />
+    <ClCompile Include="solve17141.cpp" />
     <ClCompile Include="Subone.cpp" />
+    <ClCompile Include="TClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgoHeader.h" />
@@ -199,6 +203,7 @@
     <ClInclude Include="Foo.h" />
     <ClInclude Include="IBar.h" />
     <ClInclude Include="Subone.h" />
+    <ClInclude Include="TClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

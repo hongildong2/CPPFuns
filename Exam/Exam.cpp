@@ -4,6 +4,7 @@
 #include "Baz.h"
 #include "IBar.h"
 #include "AlgoHeader.h"
+#include "TClass.h"
 
 int main()
 {
@@ -11,8 +12,7 @@ int main()
 	// Algorithm
 	{
 		using namespace Algorithm;
-
-		solve17140();
+		solve10942();
 	}
 
 
@@ -161,4 +161,10 @@ int main()
 	}
 	*/
 
+
+
+	// Final
+	// int a = add(1.0, 3.0);
+
+	float c = add<float, int>(1.f, 3);
 }

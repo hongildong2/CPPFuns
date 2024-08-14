@@ -19,6 +19,9 @@
     <Filter Include="Algorithm">
       <UniqueIdentifier>{8b4257ee-cb04-4f47-9f86-f3e09d925e5a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Final">
+      <UniqueIdentifier>{06d78529-15d6-4120-9e20-da78d6f068a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Foo.cpp">
@@ -43,6 +46,18 @@
     <ClCompile Include="solve17140.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="solve1012.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="TClass.cpp">
+      <Filter>Final</Filter>
+    </ClCompile>
+    <ClCompile Include="solve17141.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="solve10942.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h">
@@ -62,6 +77,9 @@
     </ClInclude>
     <ClInclude Include="AlgoHeader.h">
       <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="TClass.h">
+      <Filter>Final</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

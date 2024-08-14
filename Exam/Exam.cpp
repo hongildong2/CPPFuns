@@ -12,7 +12,6 @@ int main()
 	// Algorithm
 	{
 		using namespace Algorithm;
-		solve10942();
 	}
 
 
@@ -164,7 +163,19 @@ int main()
 
 
 	// Final
-	// int a = add(1.0, 3.0);
+	// int aasd = add(1.0, 3.0f); // calls T U version
+	//double ddd = add(1.0, 3.0); // calls X version
+	// float twisted222s = add<float>(1.f, 3.0);
+
+	unsigned int fullSpecial = add<unsigned int, int>(1u, -1);
+
+	// Specialize해도 사용할떄, instantiate 할때는 항상 템플릿인자를 다 넣어주어야한다. 추론할때 말고는
+	// TClass<int, int> a; // template instantiation
+
+	TClass<double, double*> cc; // specialized?? yes => 최대한 맞는 모양으로 알아서 찾아간다.
+
+	TClass<double, double> twisted; //ttwiste?
+
 
 	float c = add<float, int>(1.f, 3);
 }

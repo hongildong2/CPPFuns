@@ -2,5 +2,5 @@
 
 namespace Algorithm
 {
-	int solve10942();
+	int solve2531();
 }

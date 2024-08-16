@@ -3,7 +3,7 @@
 #include <unordered_set>
 #include <utility>
 
-namespace Algorithm
+namespace AlgorithmDone10942
 {
 	using namespace std;
 	int arr[2010] = { -1, };

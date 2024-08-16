@@ -58,6 +58,12 @@
     <ClCompile Include="solve10942.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="solve1043.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="solve2531.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h">
@@ -79,6 +85,9 @@
       <Filter>Algorithm</Filter>
     </ClInclude>
     <ClInclude Include="TClass.h">
+      <Filter>Final</Filter>
+    </ClInclude>
+    <ClInclude Include="CompileTime.h">
       <Filter>Final</Filter>
     </ClInclude>
   </ItemGroup>

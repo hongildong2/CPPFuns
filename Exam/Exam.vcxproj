@@ -189,10 +189,12 @@
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="IBar.cpp" />
     <ClCompile Include="solve1012.cpp" />
+    <ClCompile Include="solve1043.cpp" />
     <ClCompile Include="solve10942.cpp" />
     <ClCompile Include="solve1406.cpp" />
     <ClCompile Include="solve17140.cpp" />
     <ClCompile Include="solve17141.cpp" />
+    <ClCompile Include="solve2531.cpp" />
     <ClCompile Include="Subone.cpp" />
     <ClCompile Include="TClass.cpp" />
   </ItemGroup>
@@ -200,6 +202,7 @@
     <ClInclude Include="AlgoHeader.h" />
     <ClInclude Include="Bar.h" />
     <ClInclude Include="Baz.h" />
+    <ClInclude Include="CompileTime.h" />
     <ClInclude Include="Foo.h" />
     <ClInclude Include="IBar.h" />
     <ClInclude Include="Subone.h" />

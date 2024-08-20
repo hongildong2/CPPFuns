@@ -29,12 +29,12 @@ namespace Algorithm
 
 		unordered_set<pos_t, hasher> cabbages;
 
-		int row, col;
+		int ROW, COL;
 		for (int i = 0; i < count; ++i)
 		{
-			cin >> col >> row;
+			cin >> COL >> ROW;
 
-			cabbages.emplace(col, row);
+			cabbages.emplace(COL, ROW);
 		}
 
 

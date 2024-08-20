@@ -188,12 +188,15 @@
     <ClCompile Include="Exam.cpp" />
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="IBar.cpp" />
+    <ClCompile Include="Parent.cpp" />
     <ClCompile Include="solve1012.cpp" />
     <ClCompile Include="solve1043.cpp" />
     <ClCompile Include="solve10942.cpp" />
+    <ClCompile Include="solve1261.cpp" />
     <ClCompile Include="solve1406.cpp" />
     <ClCompile Include="solve17140.cpp" />
     <ClCompile Include="solve17141.cpp" />
+    <ClCompile Include="solve2217.cpp" />
     <ClCompile Include="solve2531.cpp" />
     <ClCompile Include="Subone.cpp" />
     <ClCompile Include="TClass.cpp" />
@@ -205,6 +208,7 @@
     <ClInclude Include="CompileTime.h" />
     <ClInclude Include="Foo.h" />
     <ClInclude Include="IBar.h" />
+    <ClInclude Include="Parent.h" />
     <ClInclude Include="Subone.h" />
     <ClInclude Include="TClass.h" />
   </ItemGroup>

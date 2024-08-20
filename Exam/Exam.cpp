@@ -6,6 +6,7 @@
 #include "AlgoHeader.h"
 #include "TClass.h"
 #include "CompileTime.h"
+#include "Parent.h"
 
 #include <vector>
 #include <set>
@@ -20,8 +21,7 @@ int main()
 	{
 		using namespace Algorithm;
 
-		// solve2531();
-
+		solve2217();
 		std::cout << std::endl << "### algo done ###" << std::endl;
 	}
 
@@ -58,7 +58,7 @@ int main()
 		 // In operator[], if key does not exist, value is value_type object inserted
 		constexpr int I_AM_NOT_EXISTS = 0;
 		auto& wtf = m[I_AM_NOT_EXISTS];
-		assert (wtf == 0); // default constructed
+		assert(wtf == 0); // default constructed
 		// equivalent to ` return this->try_emplace(key).first->second;
 		// key is copy constructed, value is default constructed and their definition must satisfy those
 
@@ -66,7 +66,7 @@ int main()
 
 
 		// since 1 is already exists, this does not do anything
-		const std::pair<std::map<int, int>::iterator, bool> result = m.insert({ 1, 2 }); 
+		const std::pair<std::map<int, int>::iterator, bool> result = m.insert({ 1, 2 });
 		assert(result.second == false);
 		assert(result.first->first == 1); // key
 		assert(result.first->second == 1); // val
@@ -77,10 +77,10 @@ int main()
 		assert(shitType.first->second == 100);
 
 		auto why = m.find(100); // iterator를 반환한다.
-		assert (why->first == 100);
+		assert(why->first == 100);
 
 		auto no = m.find(123123); // 없으면 end를
-		assert (no == m.end());
+		assert(no == m.end());
 
 
 
@@ -98,5 +98,25 @@ int main()
 
 	}
 
+
+	// iterator
+	{
+		std::vector<int> v1;
+		std::vector<int> v2;
+
+		v1.push_back(1);
+		v1.push_back(1);
+		v1.push_back(1);
+		v1.push_back(1);
+		v1.push_back(1);
+
+		v2.push_back(2);
+		v2.resize(100);
+		std::copy(v1.begin(), v1.end(), v2.begin());
+	}
+
+	What what;
+
+	what.Say();
 
 }

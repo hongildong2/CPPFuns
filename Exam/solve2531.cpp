@@ -1,7 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 
-namespace Algorithm
+namespace AlgorithmDone2531
 {
 	using namespace std;
 

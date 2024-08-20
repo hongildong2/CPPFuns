@@ -64,6 +64,15 @@
     <ClCompile Include="solve2531.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="Parent.cpp">
+      <Filter>COMP3200Midterm\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solve1261.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="solve2217.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h">
@@ -89,6 +98,9 @@
     </ClInclude>
     <ClInclude Include="CompileTime.h">
       <Filter>Final</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent.h">
+      <Filter>COMP3200Midterm\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

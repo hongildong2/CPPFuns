@@ -10,11 +10,12 @@ public:
 	{
 		static_assert(I > MAGIC, " I IS TOO SMALL ");
 
+		int notCaptured = 123; // when = captured defaulted, compile error when in capture clause
 		int out = 3;
 		int captureThisRef = -100;
 		auto lambda = [=, &captureThisRef, VarInCaptureClause = " i am in capture clause lol "](int param)
 		{
-			std::cout << VarInCaptureClause << std::endl;
+			std::cout << VarInCaptureClause << notCaptured << std::endl;
 			std::cout << "lambda param usage is just same as func :: " << param << std::endl;
 
 			// private member access allowed and works
@@ -22,7 +23,6 @@ public:
 
 			// Disaster(); // infinite
 
-			captureThisRef = 123123;
 
 			return 1;
 		};

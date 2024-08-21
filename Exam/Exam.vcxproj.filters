@@ -73,6 +73,9 @@
     <ClCompile Include="solve2217.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="solve1202.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h">

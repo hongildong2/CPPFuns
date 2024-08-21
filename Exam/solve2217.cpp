@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-namespace Algorithm
+namespace AlgorithmDone2217
 {
 	using namespace std;
 

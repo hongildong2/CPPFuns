@@ -21,7 +21,7 @@ int main()
 	{
 		using namespace Algorithm;
 
-		solve2217();
+		solve1202();
 		std::cout << std::endl << "### algo done ###" << std::endl;
 	}
 
